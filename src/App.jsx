@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import Marquee from "./components/Marquee"
 import About from './components/About'
-import Eyes from './components/eyes'
+import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
