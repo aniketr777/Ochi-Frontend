@@ -9,21 +9,21 @@ import Footer from './components/Footer'
 
 import LocomotiveScroll from 'locomotive-scroll'
 function App() {
-  const locomotive=new LocomotiveScroll()
+  const locomotive = new LocomotiveScroll();
+
   return (
-    <>
-      <div className="  bg-black w-full h-screen">
-        <Navbar></Navbar>
-        <Landing/>
-        <Marquee></Marquee>
-        <About></About>
-        <Eyes></Eyes>
-        <Featured></Featured>
-        <Cards></Cards>
-        <Footer></Footer>
-      </div>
-    </>
+    <div className="bg-black w-full min-h-screen">
+      <Navbar />
+      <Landing />
+      <Marquee />
+      <About />
+      <Eyes />
+      <Featured />
+      <Cards />
+      <Footer />
+    </div>
   );
 }
+
 
 export default App;
