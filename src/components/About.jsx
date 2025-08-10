@@ -18,7 +18,7 @@ function About() {
           </div>
           <div className="w-full md:w-1/2 h-[40vh] sm:h-[50vh] md:h-[70vh] bg-[#2b3214] rounded-3xl overflow-hidden">
             <img
-              src="/img-1.jpg"
+              src="/public/img-1.jpg"
               alt="Description of image"
               className="w-full h-full object-cover object-center"
             />
